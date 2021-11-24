@@ -1,0 +1,5 @@
+name: Skywars
+version: ${project.version}
+main: net.cryptizism.skywars.Skywars
+authors: [ Cryptizism ]
+description: Custom skwyars plugin
