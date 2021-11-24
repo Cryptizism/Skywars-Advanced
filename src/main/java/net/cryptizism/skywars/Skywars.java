@@ -15,10 +15,12 @@ public final class Skywars extends JavaPlugin {
         ConfigManager.setup();
         ConfigManager.getCustomChestConfig().options().copyDefaults(true);
         ConfigManager.saveChestConfig();
+        ConfigManager.getCustomPriceConfig().options().copyDefaults(true);
+        ConfigManager.savePriceConfig();
     }
 
     @Override
-    public void onDisable() {
+    public void onDisable(){
         // Plugin shutdown logic
     }
 }

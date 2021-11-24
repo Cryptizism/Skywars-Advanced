@@ -79,7 +79,7 @@ public class ConfigManager {
         return customChestConfig;
     }
 
-    public static FileConfiguration getPriceConfig() {
+    public static FileConfiguration getCustomPriceConfig() {
         return customPriceConfig;
     }
 }

@@ -5,4 +5,5 @@ lootItems:
     chance:
     minAmount:
     maxAmount:
+    durability:
   1:
